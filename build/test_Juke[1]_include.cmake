@@ -1,0 +1,5 @@
+if(EXISTS "/home/jovyan/CSPB_2270_final_project/build/test_Juke[1]_tests.cmake")
+  include("/home/jovyan/CSPB_2270_final_project/build/test_Juke[1]_tests.cmake")
+else()
+  add_test(test_Juke_NOT_BUILT test_Juke_NOT_BUILT)
+endif()
